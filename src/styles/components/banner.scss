@@ -1,0 +1,114 @@
+.main {
+  height: 99vh;
+  height: calc(var(--vh, 1vh) * 99);
+  background-color: #ffffff;
+  /* padding-top: 20vh; */
+  overflow: hidden;
+  .row {
+    flex-direction: column;
+    justify-content: center;
+    img {
+      width: 350px;
+      border-radius: 100%;
+      position: absolute;
+
+      @include media("<=tablet") {
+        width: 250px;
+        position: relative;
+        padding: 0 35%;
+      }
+    }
+
+    h2 {
+      padding-left: 40%;
+      width: 60vw;
+      font-size: 3rem;
+      line-height: 4.2rem;
+      font-weight: 700;
+      z-index: 10;
+      color: $white;
+      mix-blend-mode: difference;
+
+      @include media("<=tablet") {
+        padding-left: 0;
+        font-size: 2.4rem;
+        line-height: 3rem;
+      }
+
+      @include media("<=phone") {
+        margin-top: 72px;
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+      }
+
+      .line {
+        margin-bottom: 8px;
+        height: 56px;
+        position: relative;
+        overflow: hidden;
+
+        @include media("<=tablet") {
+          height: 48px;
+        }
+        @include media("<=phone") {
+          height: 32px;
+        }
+
+        span {
+          position: absolute;
+        }
+      }
+    }
+  }
+
+  .icons-row {
+    z-index: 10;
+
+    mix-blend-mode: difference;
+    padding-left: 40%;
+    position: relative;
+    @include media("<=tablet") {
+      padding-left: 0;
+    }
+    .intro-divider {
+      border-top: 2px solid $white;
+      z-index: 10;
+    }
+    .type-row {
+      // background: $white;
+      h3 {
+        color: $white;
+        mix-blend-mode: difference;
+        span {
+        }
+      }
+
+      ul {
+        display: flex;
+        list-style: none;
+        @include media("<=phone") {
+          padding: 0;
+        }
+        li {
+          background: $white;
+
+          border-radius: 100%;
+          margin-left: 1.5rem;
+
+          a {
+            color: $white;
+            mix-blend-mode: difference;
+            text-decoration: none;
+            padding: 1rem 1rem;
+            font-size: 1.25rem;
+            line-height: 50px;
+
+            &:hover {
+              color: $yellow;
+            }
+          }
+        }
+      }
+    }
+  }
+}
