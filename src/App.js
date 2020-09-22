@@ -4,17 +4,20 @@ import { gsap } from "gsap";
 import "./styles/App.scss";
 import Header from "./styles/components/Header";
 import Navigation from "./styles/components/navigation";
+import Footer from "./styles/components/Footer";
 
 //  Pages
 import About from "./pages/about";
 import Blogs from "./pages/blogs";
 import Home from "./pages/home";
+import Projects from "./pages/projects";
 
 // Routes
 const routes = [
   { path: "/", name: "Home", Component: Home },
   { path: "/about", name: "About", Component: About },
   { path: "/blogs", name: "Blogs", Component: Blogs },
+  { path: "/projects", name: "Projects", Component: Projects },
 ];
 
 function debounce(fn, ms) {
@@ -59,8 +62,9 @@ function App() {
 
   return (
     <>
-      <Header dimensions={dimensions} />
       <div className="App">
+        <Header dimensions={dimensions} />
+
         {routes.map(({ path, Component }) => {
           return (
             <Route key={path} exact path={process.env.PUBLIC_URL + path}>
@@ -68,8 +72,9 @@ function App() {
             </Route>
           );
         })}
+        <Footer />
       </div>
-      <Navigation />
+      {dimensions.width <= 768 ? <Navigation /> : ""}
     </>
   );
 }

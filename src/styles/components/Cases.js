@@ -34,7 +34,7 @@ export const Cases = () => {
             <CasesNext />
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           {caseStudies.map((caseItem) => (
             <div className="case" key={caseItem.id}>
               <div className="case-details">
@@ -46,7 +46,7 @@ export const Cases = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
