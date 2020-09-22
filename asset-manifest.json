@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "fahadhayat.life/static/css/main.dc17a8a3.chunk.css",
-    "main.js": "fahadhayat.life/static/js/main.840ff9b1.chunk.js",
-    "main.js.map": "fahadhayat.life/static/js/main.840ff9b1.chunk.js.map",
-    "runtime-main.js": "fahadhayat.life/static/js/runtime-main.9dfd395a.js",
-    "runtime-main.js.map": "fahadhayat.life/static/js/runtime-main.9dfd395a.js.map",
-    "static/js/2.85b68806.chunk.js": "fahadhayat.life/static/js/2.85b68806.chunk.js",
-    "static/js/2.85b68806.chunk.js.map": "fahadhayat.life/static/js/2.85b68806.chunk.js.map",
-    "index.html": "fahadhayat.life/index.html",
-    "precache-manifest.4d3558a8f03ad006668d1b9b0f9c65a9.js": "fahadhayat.life/precache-manifest.4d3558a8f03ad006668d1b9b0f9c65a9.js",
-    "service-worker.js": "fahadhayat.life/service-worker.js",
-    "static/css/main.dc17a8a3.chunk.css.map": "fahadhayat.life/static/css/main.dc17a8a3.chunk.css.map",
-    "static/js/2.85b68806.chunk.js.LICENSE.txt": "fahadhayat.life/static/js/2.85b68806.chunk.js.LICENSE.txt",
-    "static/media/fahad_hayat.jpg": "fahadhayat.life/static/media/fahad_hayat.a9be81f6.jpg",
-    "static/media/fahadhayat.pdf": "fahadhayat.life/static/media/fahadhayat.cef50fc1.pdf",
-    "static/media/up-arrow-circle.a5e87149.svg": "fahadhayat.life/static/media/up-arrow-circle.a5e87149.svg"
+    "main.css": "/static/css/main.dc17a8a3.chunk.css",
+    "main.js": "/static/js/main.d16dda94.chunk.js",
+    "main.js.map": "/static/js/main.d16dda94.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ad540005.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ad540005.js.map",
+    "static/js/2.85b68806.chunk.js": "/static/js/2.85b68806.chunk.js",
+    "static/js/2.85b68806.chunk.js.map": "/static/js/2.85b68806.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.267ffc8de2b4bca4251be66e354f8739.js": "/precache-manifest.267ffc8de2b4bca4251be66e354f8739.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.dc17a8a3.chunk.css.map": "/static/css/main.dc17a8a3.chunk.css.map",
+    "static/js/2.85b68806.chunk.js.LICENSE.txt": "/static/js/2.85b68806.chunk.js.LICENSE.txt",
+    "static/media/fahad_hayat.jpg": "/static/media/fahad_hayat.a9be81f6.jpg",
+    "static/media/fahadhayat.pdf": "/static/media/fahadhayat.cef50fc1.pdf",
+    "static/media/up-arrow-circle.a5e87149.svg": "/static/media/up-arrow-circle.a5e87149.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9dfd395a.js",
+    "static/js/runtime-main.ad540005.js",
     "static/js/2.85b68806.chunk.js",
     "static/css/main.dc17a8a3.chunk.css",
-    "static/js/main.840ff9b1.chunk.js"
+    "static/js/main.d16dda94.chunk.js"
   ]
 }
