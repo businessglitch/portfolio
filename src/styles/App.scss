@@ -158,5 +158,10 @@ html {
 }
 
 .copyright-section {
-  text-align: right;
+  position: fixed;
+  bottom: 10px;
+  left: 50vw;
+  @include media("<=tablet") {
+    left: 20vw;
+  }
 }

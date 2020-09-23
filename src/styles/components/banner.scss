@@ -1,6 +1,6 @@
 .main {
-  height: 99vh;
-  height: calc(var(--vh, 1vh) * 99);
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   background-color: #ffffff;
   /* padding-top: 20vh; */
   overflow: hidden;
@@ -102,6 +102,11 @@
             padding: 1rem 1rem;
             font-size: 1.25rem;
             line-height: 50px;
+
+            i {
+              vertical-align: top;
+              margin: 0 !important;
+            }
 
             &:hover {
               color: $yellow;
