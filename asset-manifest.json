@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a70baacb.chunk.css",
-    "main.js": "/portfolio/static/js/main.289fba21.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.289fba21.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.29fb0dd0.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.29fb0dd0.js.map",
-    "static/js/2.85b68806.chunk.js": "/portfolio/static/js/2.85b68806.chunk.js",
-    "static/js/2.85b68806.chunk.js.map": "/portfolio/static/js/2.85b68806.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.79ab355caf04dc98f1da3ffc5f3bdb48.js": "/portfolio/precache-manifest.79ab355caf04dc98f1da3ffc5f3bdb48.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.a70baacb.chunk.css.map": "/portfolio/static/css/main.a70baacb.chunk.css.map",
-    "static/js/2.85b68806.chunk.js.LICENSE.txt": "/portfolio/static/js/2.85b68806.chunk.js.LICENSE.txt",
-    "static/media/fahad_hayat.jpg": "/portfolio/static/media/fahad_hayat.a9be81f6.jpg",
-    "static/media/fahadhayat.pdf": "/portfolio/static/media/fahadhayat.cef50fc1.pdf",
-    "static/media/up-arrow-circle.a5e87149.svg": "/portfolio/static/media/up-arrow-circle.a5e87149.svg"
+    "main.css": "/static/css/main.a70baacb.chunk.css",
+    "main.js": "/static/js/main.d16dda94.chunk.js",
+    "main.js.map": "/static/js/main.d16dda94.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ad540005.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ad540005.js.map",
+    "static/js/2.85b68806.chunk.js": "/static/js/2.85b68806.chunk.js",
+    "static/js/2.85b68806.chunk.js.map": "/static/js/2.85b68806.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6e4fc7fccb2401159e3e4ddb2720465d.js": "/precache-manifest.6e4fc7fccb2401159e3e4ddb2720465d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a70baacb.chunk.css.map": "/static/css/main.a70baacb.chunk.css.map",
+    "static/js/2.85b68806.chunk.js.LICENSE.txt": "/static/js/2.85b68806.chunk.js.LICENSE.txt",
+    "static/media/fahad_hayat.jpg": "/static/media/fahad_hayat.a9be81f6.jpg",
+    "static/media/fahadhayat.pdf": "/static/media/fahadhayat.cef50fc1.pdf",
+    "static/media/up-arrow-circle.a5e87149.svg": "/static/media/up-arrow-circle.a5e87149.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.29fb0dd0.js",
+    "static/js/runtime-main.ad540005.js",
     "static/js/2.85b68806.chunk.js",
     "static/css/main.a70baacb.chunk.css",
-    "static/js/main.289fba21.chunk.js"
+    "static/js/main.d16dda94.chunk.js"
   ]
 }
