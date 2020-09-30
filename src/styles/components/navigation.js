@@ -24,7 +24,7 @@ const Navigation = () => {
               </NavLink>
             </li>
             <li>
-              <a href={Pdf} target="_blank">
+              <a href={Pdf} target="_blank" rel="noopener noreferrer">
                 Resume
               </a>
             </li>

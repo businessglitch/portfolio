@@ -5,7 +5,10 @@ export const Banner = () => {
     <section className="main">
       <div className="container">
         <div className="row">
-          <img src={require(`../../assets/fahad_hayat.jpg`)} alt="" />
+          <img
+            src={require(`../../assets/fahad_hayat.jpg`)}
+            alt="Fahad Hayat"
+          />
           <h2>
             <div className="line">
               <span>Hi,</span>
@@ -25,6 +28,7 @@ export const Banner = () => {
                 <li className="icon">
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/fahdhayat/"
                   >
                     <i className="linkedin alternate icon"></i>
@@ -33,24 +37,34 @@ export const Banner = () => {
                 <li className="icon">
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/fahdhayat/"
                   >
                     <i className="instagram icon"></i>
                   </a>
                 </li>
                 <li className="icon">
-                  <a target="_blank" href="https://medium.com/@fahoodihay">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://medium.com/@fahoodihay"
+                  >
                     <i className="medium icon"></i>
                   </a>
                 </li>
                 <li className="icon">
-                  <a target="_blank" href="https://github.com/businessglitch">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/businessglitch"
+                  >
                     <i className="github icon"></i>
                   </a>
                 </li>
                 <li className="icon">
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.youtube.com/channel/UC8Bx9PytdSy9Xz_Yp3Lim0A/"
                   >
                     <i className="youtube alternate icon"></i>

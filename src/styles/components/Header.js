@@ -8,7 +8,7 @@ export const Header = ({ history, dimensions }) => {
   const [menuState, setMenuState] = useState({ menuOpened: false });
 
   const handleState = (state) => {
-    if (state == true) openMenu(dimensions);
+    if (state === true) openMenu(dimensions);
     else closeMenu();
 
     setMenuState({ menuOpened: state });

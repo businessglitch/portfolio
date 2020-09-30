@@ -165,3 +165,27 @@ html {
     left: 20vw;
   }
 }
+
+.ui {
+  &.card {
+    display: inline-block;
+    margin: 2rem 2rem !important;
+  }
+}
+
+.icons-row {
+  align-items: center;
+  position: relative;
+}
+
+.projects-row {
+  position: relative;
+  top: 135px;
+  @include media("<=tablet") {
+    margin-left: 30vw;
+  }
+
+  @include media("<=phone") {
+    margin-left: 10vw;
+  }
+}
