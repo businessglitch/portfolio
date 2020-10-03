@@ -1,6 +1,15 @@
 import React from "react";
+import ReactTypingEffect from "react-typing-effect";
 
-export const Banner = () => {
+export const Banner = ({ dimensions }) => {
+  let texts = [
+    "indoors qurantining",
+    "handling client work",
+    "writing code",
+    "at the gym",
+    "bumping to Drake, Lil Baby and Pop Smoke",
+    "working on a Youtube video",
+  ];
   return (
     <section className="main">
       <div className="container">
@@ -21,8 +30,15 @@ export const Banner = () => {
             <hr className="intro-divider" />
             <div className="type-row">
               <h3>
-                I'm Likely <span className="typed"></span>
-                <span className="typed_cursor">_</span>
+                /* I'm likely{" "}
+                <ReactTypingEffect
+                  text={texts}
+                  speed={85}
+                  eraseDelay={500}
+                  typingDelay={500}
+                  cursor="_"
+                />{" "}
+                */
               </h3>
               <ul className="icons-list">
                 <li className="icon">

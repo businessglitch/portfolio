@@ -7,15 +7,27 @@
   .row {
     flex-direction: column;
     justify-content: center;
+    @include media("<=tablet") {
+      display: block;
+    }
+
     img {
       width: 350px;
       border-radius: 100%;
       position: absolute;
 
+      @include media("<=mid-table-desktop") {
+        width: 300px;
+      }
+
       @include media("<=tablet") {
-        width: 250px;
-        position: relative;
-        padding: 0 35%;
+        position: initial;
+        margin-left: 20vw;
+        margin-top: 5vh;
+      }
+
+      @include media("<=phone") {
+        margin-left: 6vw;
       }
     }
 
@@ -75,12 +87,10 @@
       z-index: 10;
     }
     .type-row {
-      // background: $white;
       h3 {
-        color: $white;
+        color: $gray;
         mix-blend-mode: difference;
-        span {
-        }
+        font-weight: 300;
       }
 
       ul {

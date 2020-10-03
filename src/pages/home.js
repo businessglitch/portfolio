@@ -38,7 +38,7 @@ const Home = ({ dimensions }) => {
   return (
     <>
       {animationComplete === false ? <IntroOverlay /> : ""}
-      <Banner />
+      <Banner dimensions={dimensions} />
     </>
   );
 };
