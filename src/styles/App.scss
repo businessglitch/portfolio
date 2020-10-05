@@ -187,5 +187,7 @@ html {
 
   @include media("<=phone") {
     margin-left: 10vw;
+    height: 70%;
+    overflow-y: scroll;
   }
 }
