@@ -47,7 +47,7 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     href={project.demo}
-                    class="ui button primary"
+                    className="ui button primary"
                   >
                     Demo
                   </a>
@@ -58,7 +58,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href={project.github}
-                  class="ui secondary button"
+                  className="ui secondary button"
                 >
                   Github
                 </a>

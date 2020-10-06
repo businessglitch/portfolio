@@ -66,6 +66,7 @@
 
     .hamburger-menu {
       width: 25px;
+      position: absolute;
       @include media("<=phone") {
         width: 20px;
       }
@@ -81,7 +82,8 @@
     .hamburger-menu-close {
       position: absolute;
       display: none;
-
+      top: -20px;
+      left: -10px;
       svg {
         @include media("<=tablet") {
           width: 56px;

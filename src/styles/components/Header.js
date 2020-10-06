@@ -10,13 +10,16 @@ export const Header = ({ history, dimensions }) => {
   const handleState = (state) => {
     if (state === true) openMenu(dimensions);
     else closeMenu();
-
     setMenuState({ menuOpened: state });
   };
   useEffect(() => {
-    history.listen(() => {
+    const unlisten = history.listen(() => {
+      closeMenu();
       setMenuState({ menuOpened: false });
     });
+    return () => {
+      unlisten();
+    };
   }, [menuState.menuOpened]);
   return (
     <div className="header">
