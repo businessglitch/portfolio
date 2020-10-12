@@ -1,33 +1,33 @@
 import React from "react";
-const projects = [
-  {
-    id: 1,
-    github: "https://github.com/businessglitch/sample-portfolio-1/",
-    demo: "https://businessglitch.github.io/sample-portfolio-1/",
-    image: "../../assets/FH.png",
-    title: "Showcase Website 1",
-    description: "Sample portfolio website made using React abd Gsap",
-  },
-  {
-    id: 2,
-    github: "https://github.com/businessglitch/3Dice",
-    demo: "",
-    image: "../../assets/FH.png",
-    title: "3Dice",
-    description:
-      "A fun project made to learn more about building fullstack SaaS applications",
-  },
-  {
-    id: 3,
-    github: "https://rooms-server.web.app/",
-    demo: "https://github.com/businessglitch/Carleton-rooms",
-    image: "../../assets/FH.png",
-    title: "Rooms",
-    description: "Room finding web-app for CarletonU classrooms",
-  },
-];
 
 const Projects = () => {
+  const projects = [
+    {
+      id: 1,
+      github: "https://github.com/businessglitch/sample-portfolio-1/",
+      demo: "https://businessglitch.github.io/sample-portfolio-1/",
+      image: "showcase1.png",
+      title: "Showcase website #1",
+      description: "Sample portfolio website made using React and Gsap",
+    },
+    {
+      id: 2,
+      github: "https://github.com/businessglitch/3Dice",
+      demo: "",
+      image: "3dice.png",
+      title: "3Dice",
+      description:
+        "A fun project made to learn more about building fullstack SaaS applications",
+    },
+    {
+      id: 3,
+      github: "https://rooms-server.web.app/",
+      demo: "https://github.com/businessglitch/Carleton-rooms",
+      image: "rooms.png",
+      title: "Rooms",
+      description: "Room finding web-app for CarletonU classrooms",
+    },
+  ];
   return (
     <div className="page">
       <div className="container">
@@ -35,7 +35,10 @@ const Projects = () => {
           {projects.map((project) => (
             <div key={project.id} className="ui card">
               <div className="image">
-                <img alt="" src={project.image} />
+                <img
+                  alt=""
+                  src={require(`../assets/projects/${project.image}`)}
+                />
               </div>
               <div className="content">
                 <h3>{project.title}</h3>
