@@ -10,17 +10,20 @@ export const Header = ({ history, dimensions }) => {
   const handleState = (state) => {
     if (state === true) openMenu(dimensions);
     else closeMenu();
+
     setMenuState({ menuOpened: state });
   };
+  
   useEffect(() => {
     const unlisten = history.listen(() => {
-      closeMenu();
+      if (dimensions.width < 768) closeMenu();
       setMenuState({ menuOpened: false });
     });
     return () => {
       unlisten();
     };
-  }, [menuState.menuOpened]);
+  }, [dimensions, menuState.menuOpened]);
+
   return (
     <div className="header">
       <div className="container">

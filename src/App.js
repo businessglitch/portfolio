@@ -52,7 +52,6 @@ function App() {
         width: window.innerWidth,
       });
     }, 1000);
-
     window.addEventListener("resize", debouncedHandleResize);
 
     return () => {
@@ -72,9 +71,10 @@ function App() {
             </Route>
           );
         })}
-        <Footer />
+       
       </div>
       {dimensions.width <= 768 ? <Navigation /> : ""}
+      <Footer />
     </>
   );
 }

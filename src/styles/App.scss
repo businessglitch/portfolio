@@ -159,6 +159,7 @@ html {
 
 .copyright-section {
   position: fixed;
+  z-index: 2;
   bottom: 10px;
   left: 50vw;
   @include media("<=tablet") {
@@ -180,6 +181,8 @@ html {
 
 .projects-row {
   position: relative;
+  max-height: 75%;
+  overflow-y: scroll;
   top: 135px;
   .card {
     box-shadow: 0 1px 3px 0 #000, 0 0 0 1px #d4d4d5;
