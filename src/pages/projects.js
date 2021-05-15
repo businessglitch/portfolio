@@ -27,6 +27,14 @@ const Projects = () => {
       title: "Rooms",
       description: "Room finding web-app for CarletonU classrooms",
     },
+     {
+      id: 4,
+      github: "",
+      demo: "http://139.59.38.84:7777/",
+      image: "ecommerce.png",
+      title: "Fullstack E-Commerce Store",
+      description: "Developed an Ecommerce store for learning purposes. Used KeyStone NextJS on the backend and React/NextJS on the frontend with GraphQL",
+    },
   ];
   return (
     <div className="page">
@@ -45,7 +53,7 @@ const Projects = () => {
                 <div className="description">{project.description}</div>
               </div>
               <div className="extra content">
-                {project.demo !== "" ? (
+                {project.demo ? (
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -57,6 +65,7 @@ const Projects = () => {
                 ) : (
                   ""
                 )}
+                {project.github ? (
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -64,7 +73,7 @@ const Projects = () => {
                   className="ui secondary button"
                 >
                   Github
-                </a>
+                </a>) : ""}
               </div>
             </div>
           ))}
