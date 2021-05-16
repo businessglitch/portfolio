@@ -33,7 +33,15 @@ const Projects = () => {
       demo: "http://139.59.38.84:7777/",
       image: "ecommerce.png",
       title: "Fullstack E-Commerce Store",
-      description: "Developed an Ecommerce store for learning purposes. Used KeyStone NextJS on the backend and React/NextJS on the frontend with GraphQL",
+      description: "Developed an Ecommerce store for learning purposes. Used KeyStone NextJS on the backend and React/NextJS on the frontend with GraphQL \n username: admin@admin.com password:12345678",
+    },
+    {
+      id: 5,
+      github: "https://github.com/businessglitch/travel-logs.git",
+      demo: "http://3.143.220.102:5000/",
+      image: "map.png",
+      title: "MERN stack Travel log app",
+      description: "Create a Travel log app to pin places on all the places I've visited using MERN stack",
     },
   ];
   return (
