@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.8d76bcf7.chunk.css",
-    "main.js": "/static/js/main.f007dda7.chunk.js",
-    "main.js.map": "/static/js/main.f007dda7.chunk.js.map",
+    "main.js": "/static/js/main.05f3c209.chunk.js",
+    "main.js.map": "/static/js/main.05f3c209.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ad540005.js",
     "runtime-main.js.map": "/static/js/runtime-main.ad540005.js.map",
     "static/js/2.7fecb0f8.chunk.js": "/static/js/2.7fecb0f8.chunk.js",
     "static/js/2.7fecb0f8.chunk.js.map": "/static/js/2.7fecb0f8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7d81c602137d3f6b28426e5d47ac5655.js": "/precache-manifest.7d81c602137d3f6b28426e5d47ac5655.js",
+    "precache-manifest.3cb4d4aa172c5fa700b0b2413fb42b09.js": "/precache-manifest.3cb4d4aa172c5fa700b0b2413fb42b09.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.8d76bcf7.chunk.css.map": "/static/css/main.8d76bcf7.chunk.css.map",
     "static/js/2.7fecb0f8.chunk.js.LICENSE.txt": "/static/js/2.7fecb0f8.chunk.js.LICENSE.txt",
     "static/media/3dice.png": "/static/media/3dice.74883ffc.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.5fe64b89.png",
     "static/media/fahad_hayat.jpg": "/static/media/fahad_hayat.a9be81f6.jpg",
     "static/media/fahadhayat.pdf": "/static/media/fahadhayat.cef50fc1.pdf",
+    "static/media/map.png": "/static/media/map.e028713c.png",
     "static/media/rooms.png": "/static/media/rooms.a0514c61.png",
     "static/media/showcase1.png": "/static/media/showcase1.ee3c0dfe.png",
     "static/media/up-arrow-circle.a5e87149.svg": "/static/media/up-arrow-circle.a5e87149.svg"
@@ -23,6 +25,6 @@
     "static/js/runtime-main.ad540005.js",
     "static/js/2.7fecb0f8.chunk.js",
     "static/css/main.8d76bcf7.chunk.css",
-    "static/js/main.f007dda7.chunk.js"
+    "static/js/main.05f3c209.chunk.js"
   ]
 }

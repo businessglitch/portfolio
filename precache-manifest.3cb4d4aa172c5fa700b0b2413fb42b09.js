@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18d8b3696fbe7ee563aab18f780a6b28",
+    "revision": "f17216113cfda5542f8585510128449a",
     "url": "/index.html"
   },
   {
-    "revision": "ff5896e22d6f4985e205",
+    "revision": "7bb47985d52bae52f94e",
     "url": "/static/css/main.8d76bcf7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.7fecb0f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff5896e22d6f4985e205",
-    "url": "/static/js/main.f007dda7.chunk.js"
+    "revision": "7bb47985d52bae52f94e",
+    "url": "/static/js/main.05f3c209.chunk.js"
   },
   {
     "revision": "27e277ca3f130b8f1fce",
@@ -28,12 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/3dice.74883ffc.png"
   },
   {
+    "revision": "5fe64b89824e8703ad40317edf4fe040",
+    "url": "/static/media/ecommerce.5fe64b89.png"
+  },
+  {
     "revision": "a9be81f6e37865942ac800f980aa2a5e",
     "url": "/static/media/fahad_hayat.a9be81f6.jpg"
   },
   {
     "revision": "cef50fc165dd17d6062e0b8c2b05fbf6",
     "url": "/static/media/fahadhayat.cef50fc1.pdf"
+  },
+  {
+    "revision": "e028713cd855bd6e4041a9613fe695b4",
+    "url": "/static/media/map.e028713c.png"
   },
   {
     "revision": "a0514c612c3191a4d071059d952ee06c",
