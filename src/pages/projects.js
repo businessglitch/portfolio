@@ -30,7 +30,7 @@ const Projects = () => {
      {
       id: 4,
       github: "",
-      demo: "http://139.59.38.84:7777/",
+      demo: "http://3.133.125.148:7777/",
       image: "ecommerce.png",
       title: "Fullstack E-Commerce Store",
       description: "Developed an Ecommerce store for learning purposes. Used KeyStone NextJS on the backend and React/NextJS on the frontend with GraphQL \n username: admin@admin.com password:12345678",
